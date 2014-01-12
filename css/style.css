@@ -15,13 +15,14 @@
 
 .logo
 {
-	margin: 21px 0 0 40px;
-
+	margin: 21px 0 0 25px;
+	background-position: left center;
+    background-repeat: no-repeat;
 }
 
 .donate-now
 {
-	margin: 1.25% auto;
+	margin: 12px auto 0 auto;
 	width: 97.5%;
 	height: 4em;
 	max-width: 420px;
@@ -46,14 +47,18 @@
 	font-size: 1.2em;
 	text-align: right;
 	padding-top: 21.75px;
-
+	width: 360px;
 	/*margin: -94px auto 0 auto;*/
 }
 
 .site-quote-paragraph
 {
 	vertical-align: middle;
-	max-width: 320px;
+	max-width: 360px;
+	/*min-width: 320px;*/
+	font-size: 100%;
+	line-height: 1.2em;
+
 }
 
 .page-heading
@@ -63,7 +68,7 @@
 
 .content
 {
-	height:550px;
+	height:auto;
 }
 
 @media (min-width: 768px) {
@@ -75,6 +80,12 @@
     .navbar .navbar-collapse {
         text-align: center;
         margin-bottom: -6px;
+    }
+
+    .logo
+    {
+    	float: left;
+    	margin-left: 120px;
     }
 }
 
@@ -96,11 +107,73 @@
 	box-shadow: 1px 1px 1px #ccc;
 }
 
+@media only screen and (min-width : 320px) and (max-width : 480px) 
+{
+	/*
+	 * Smartphone Only
+	 */
+	.footer-trademark
+	{
+		font-size: 0.5em;
+	}
+}
+
+@media only screen 
+and (min-width : 992px) 
+and (max-width : 1024px) 
+and (orientation : landscape)
+{
+	#site-quote
+	{
+		margin: 56px 0 0 0;
+	}
+}
+
 @media only screen and (min-width : 320px) /*and (max-width : 480px) and (min-width : 768px) */and (max-width : 1024px) 
 {
+	/*
+	 * Smartphone & Tablet Only
+	 */
 	.red-bg
 	{
 		padding: 0;
+		background: #c01414;
+		margin: -24px 0 0 0;
+	}
+
+	.position-center
+	{
+		float: none;
+		margin: 0 auto;
+	}
+
+	#logo
+	{
+		margin: 56px 0 0 0;
+	}
+
+	.donate-now
+	{
+		font-size: 1.5em;
+		max-width: 380px;
+		width: 90%;
+		min-width: 280px;
+		/*margin: 12px 5%;*/
+	}
+
+	.site-quote
+	{
+		text-align: center;
+	}
+
+	.site-quote-paragraph
+	{
+		margin: 0 0 0 16px;
+	}
+
+	.logo
+	{
+		margin-top: 24px;
 	}
 }
 
@@ -154,13 +227,28 @@ margin:0 auto;
 }
 
 /*conrad erika */
-.about-img
+/*.about-img
 {
 border: 10px solid green;
-}
+}*/
 
 .about-text
 {
 margin:5px 10px 5px 10px;
 }
 /*conrad erika finish */
+
+.center-crop-image{
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.left-crop-image{
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.right-crop-image{
+    background-position: right;
+    background-repeat: no-repeat;
+}

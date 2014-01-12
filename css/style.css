@@ -1,0 +1,166 @@
+.red-bg
+{
+	background: #c01414; /* Old browsers */
+	background: -moz-linear-gradient(top, #c01414 0%, #e40613 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c01414), color-stop(100%,#e40613)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #c01414 0%,#e40613 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #c01414 0%,#e40613 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top, #c01414 0%,#e40613 100%); /* IE10+ */
+	background: linear-gradient(to bottom, #c01414 0%,#e40613 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c01414', endColorstr='#e40613',GradientType=0 ); /* IE6-9 */
+	height: 183px;
+	padding: 51px 0 0 0;
+	/*min-width: 367px;*/
+}
+
+.logo
+{
+	margin: 21px 0 0 40px;
+
+}
+
+.donate-now
+{
+	margin: 1.25% auto;
+	width: 97.5%;
+	height: 4em;
+	max-width: 420px;
+	min-width: 345px;
+	font-size: 2em;
+	padding: 1.2em 0 0 0;
+	float: none;
+
+}
+
+.footer
+{
+	background-color:black;
+	height: 160px;
+	color: #DFDFDE;
+	text-align: center;
+}
+
+.site-quote
+{
+	color: #FFFFFF;
+	font-size: 1.2em;
+	text-align: right;
+	padding-top: 21.75px;
+
+	/*margin: -94px auto 0 auto;*/
+}
+
+.site-quote-paragraph
+{
+	vertical-align: middle;
+	max-width: 320px;
+}
+
+.page-heading
+{
+	 height:50px;
+}
+
+.content
+{
+	height:550px;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+        margin-bottom: -6px;
+    }
+}
+
+.camara-nav
+{
+	margin: 4px 0 0 0;
+	color: #4a4a4a;
+	border-radius: 5px 5px 0 0;
+	text-transform: lowercase;
+}
+
+.navbar-default .camara-nav-active, .navbar-default .navbar-nav>li>a:hover
+{
+	margin: 4px 0 -2px 0;
+	border-radius: 5px 5px 0 0;
+	text-transform: lowercase;
+	background-color: #97c120;
+	color: #FFFFFF !important;
+	box-shadow: 1px 1px 1px #ccc;
+}
+
+@media only screen and (min-width : 320px) /*and (max-width : 480px) and (min-width : 768px) */and (max-width : 1024px) 
+{
+	.red-bg
+	{
+		padding: 0;
+	}
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+.footer-trademark
+{
+	margin: 0;
+	text-align: center;
+}
+
+.footer-trademark-divide
+{
+	padding: 12px 0;
+}
+
+.snow-region
+{
+	width: 66.65%;
+	float: left;
+	position: relative;
+}
+.body
+{
+	font-family:gothic;
+}
+@font-face {
+	font-family:'gothic';
+	src:	url('/fonts/gothic.eot');
+			url('/fonts/gothic.woff') format('woff'), 
+			url('/fonts/gothic.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+/* emer style for sidebar*/
+.sidetext{
+height:250px;
+width:250px;
+text-align:center;
+margin:0 auto;
+}
+
+/*conrad erika */
+.about-img
+{
+border: 10px solid green;
+}
+
+.about-text
+{
+margin:5px 10px 5px 10px;
+}
+/*conrad erika finish */
